@@ -1,0 +1,104 @@
+@font-face {
+    font-family:fonts1 ;
+    src: url(fonts/Righteous-Regular.ttf);
+}
+html{
+    --fristColor: #eee;
+    --secondaryColor:blue;
+}
+.cardDiv{
+    box-shadow: 0 0 12px black;
+    width: 80%;
+    font-size: 20px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 30px auto auto;
+    background-color: var(--fristColor);
+    position: relative;
+    border-radius: 10px;
+    transition: 0.5s;
+    font-family: fonts1;
+
+}
+.cardDiv:hover{
+    border-left: 20px solid var(--secondaryColor);
+    cursor: grab;
+} 
+.cardDiv:active{
+    cursor: grabbing;
+}
+
+#imgDiv{
+    width: 50%;
+    max-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+h3{
+    color: var(--secondaryColor);
+    position: absolute;
+    left:135px;
+    top: -20px;
+}
+.par{
+    color: var(--secondaryColor);
+    position: absolute;
+    left:135px;
+    top: 100px;
+}
+.dar{
+    color: var(--secondaryColor);
+    position: absolute;
+    left:135px;
+    top: 178px;
+}
+button{
+    background-color: var(--secondaryColor);
+    font-size: 20px;
+    border: none;
+    right: 5px;
+    position: absolute;
+    bottom: 5px;
+    padding: 10px 10px 10px 25px;
+    color: var(--fristColor);
+    border-radius: 6px;
+}
+button:hover{
+    background-color: rgb(56, 56, 163);
+    cursor: grab;
+}
+button:active{
+    background-color: blue;
+    cursor: grabbing;
+
+}
+#cartIcon{
+    font-size: 22px;
+    position: absolute;
+    right: 105px;
+    bottom: 11px;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+#bigDiv{
+    font-size: 400%;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 80px;
+    z-index: 1;
+    color: var(--secondaryColor);
+    animation: 1s cubic-bezier(.6,-.28,.735,.045) infinite alternate forwards anim1
+
+
+}
+@keyframes anim1 {
+    to{
+        scale: 1.2;
+    }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="meme.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <script src="https://unpkg.com/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="momo.js"></script>
+
+ </head>
+<body style="background-color: black;">
+  <div class="container text-center">
+    <br><br>
+    <label style="font-size: xx-large;" for="">Favourite List</label >
+    <br><br>
+    <input type="text" id="mealInput">
+    <br><br>
+    <button class="listButtons" onclick="addMeal()">Add</button>
+    <button class="listButtons" onclick="listMeal()">List</button>
+    <button class="listButtons" onclick="clearList()">Clear</button>
+    <button class="listButtons" onclick="removeList()">delete</button>
+    
+    <br><br>
+    <ul id="mealList"></ul>
+    <br><br>
+    <h4 id="momo">Items Count: <span id="itemsCount">0</span></h4>
+    <br>
+    <a id="lol" href="https://projects.tatbeqak.site/p/8/index.html">go back to main page</a>
+  </div>
+</body>
+</html>

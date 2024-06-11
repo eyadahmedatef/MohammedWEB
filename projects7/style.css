@@ -1,0 +1,106 @@
+#colorInput{
+    width: 20%;
+
+}
+
+
+
+
+
+body {
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:  rgb(255, 0, 0);
+    min-height: 100vh;
+}
+
+h3 {
+    margin: 20px;
+}
+
+#mainDiv {
+    border: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+#questionDiv {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5%;
+}
+
+#answersDiv {
+    padding: 3%;
+    text-align: center;
+}
+
+#centerDiv {
+    border-top: 3px;
+    border-style: solid;
+}
+
+.answerDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    border: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 1%;
+    padding: 3%;
+    min-height: 15vh;
+    font-size: 25px;
+}
+
+.row {
+    justify-content: center;
+}
+
+.answerDiv:hover {
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0) !important;
+    cursor: pointer;
+    border: rgb(255, 0, 0);
+}
+
+#nextButton {
+    display: none;
+    margin: auto;
+}
+
+#resultDiv {
+    width: 90%;
+    max-width: 600px;
+    border: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 2%;
+    text-align: center;
+    margin: auto;
+    display: none;
+}
+
+.lol{
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 9px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.6s;
+    border: 2px solid transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lol:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    color:red;
+}

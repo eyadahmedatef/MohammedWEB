@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    }
+    #lol{
+        max-width: 150px;
+        width: 20%;
+        animation-name: animations1;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-duration: 6s;
+    
+    }
+        #topDiv{
+        height: 30vh;
+        background-image: linear-gradient(blue,white);
+        }
+    
+    @keyframes animations1 {       
+    from{
+    transform: translate(-110%, 0);
+    }
+    to{
+        transform: translate(100vw,50px);
+    
+    }
+    
+    }
+    

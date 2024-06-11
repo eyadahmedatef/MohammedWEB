@@ -1,0 +1,96 @@
+<!DOCTYPE html>   
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://unpkg.com/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body style="background-color: black;">
+    <h1 class="mol">Mohmmed <span>programming</span></h1>
+    <br><br>
+    <div id="mainDiv" class="container text-center col-10">
+        <div id="resultDiv">
+            
+            0
+        </div>
+        <br>
+        <div class="buttonDiv col-7" onclick="clearScreen()">
+            C
+        </div>        
+        <div class="buttonDiv col-2" onclick="addValue('/')">
+            /
+        </div>
+        <br>
+        <div class="buttonDiv col-2" onclick="addValue(1)">
+            1
+        </div>
+        <div class="buttonDiv col-2" onclick="addValue(2)">
+            2
+        </div>
+        <div class="buttonDiv col-2" onclick="addValue(3)">
+            3
+        </div>
+        <div class="buttonDiv col-2" onclick="addValue('*')">
+            *
+        </div>
+        <br>
+        <div class="buttonDiv col-2" onclick="addValue(4)">
+            4
+        </div>
+        <div class="buttonDiv col-2" onclick="addValue(5)">
+            5
+        </div>
+        <div class="buttonDiv col-2" onclick="addValue(6)">
+            6
+        </div>
+        <div class="buttonDiv col-2" onclick="addValue('-')">
+            -
+        </div>
+        <br>
+        <div class="buttonDiv col-2" onclick="addValue(7)">
+            7
+        </div>
+        <div class="buttonDiv col-2" onclick="addValue(8)">
+            8
+        </div>
+        <div class="buttonDiv col-2" onclick="addValue(9)">
+            9
+        </div>
+        <div class="buttonDiv col-2" onclick="addValue('+')">
+            +
+        </div>
+        <br>
+        <div class="buttonDiv col-2" onclick="addValue('00')">
+            00
+        </div>
+        <div class="buttonDiv col-2" onclick="addValue(0)">
+            0
+        </div>
+        <div class="buttonDiv col-2" onclick="addValue('.')">
+            .
+        </div>
+        <div class="buttonDiv col-2" onclick="calculate()">
+            =
+        </div>
+    </div>
+    <br><br>
+    <nav>
+        <h1 id="soso">About <span class="soso">calculator</span></h1>
+        <br><br>
+        <p>A calculator is a machine which allows people to do math operations more easily. For example, most calculators will add, subtract, multiply, and divide. Some also do square roots, and more complex calculators can help with calculus and draw function graphs. Calculators are found everywhere. A smartphone or other computer can also act as a calculator.
+            Some calculators, like the abacus, will work without electricity. Others, like the electronic calculator, use batteries. Some calculators are simple, and can only add, subtract, multiply and divide, and sometimes take square roots. Scientific calculators can do many other things, such as use exponents (or powers or indices) and trigonometry functions.
+            A printing calculator can print its results.</p>
+    </nav>       
+    <br>
+    <input type="color" name="" id="colorInput">
+    <h3 id="colorResult"></h3>
+    <br>
+    <a id="lol" href="https://projects.tatbeqak.site/p/8/index.html">Go back Home</a>
+    <br><br>
+
+    <script src="script.js"></script>
+</body>
+</html

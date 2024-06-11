@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كل عام وأنتم بخير</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cardDiv" class="card">
+        <img src="images/pngegg.png" alt="">
+        <h1>كل عام وأنت بخير يا <span id="friendSpan">محمد</span></h1>
+        <p>من صديقك <span id="myNameSpan">مريم</span></p>
+        <i id="playBtn" class="bi bi-play-circle-fill" onclick="playSong()"></i>
+    </div>
+    <div id="nameDiv">
+        <input id="myName" type="text" placeholder="اكتب اسمك">
+        <br><br>
+        <input id="friendName" type="text" placeholder="اكتب اسم صديقك">
+        <br><br>
+        <button onclick="showCard()">التالي</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

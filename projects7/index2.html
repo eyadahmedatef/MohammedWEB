@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Quiza App</title>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://unpkg.com/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h3>Question: <span id="questionNumberText">1</span>/10</h3>
+    <h3>Score: <span id="scoreNumberText">0</span>/10</h3>
+    <br>
+    <div id="mainDiv">
+        <div id="questionDiv">
+            Test question wil placed here?
+        </div>
+        <div id="centerDiv"></div>
+        <div id="answersDiv">
+            <div class="row">
+                <div class="answerDiv">
+                    Choice 1
+                </div>
+                <div class="answerDiv">
+                    Choice 2
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="answerDiv">
+                    Choice 3
+                </div>
+                <div class="answerDiv">
+                    Choice 4
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <button style="width: 50%;" onclick="checkAnswer()" id="nextButton" class="lol">Next</button>
+    <br>
+    <label for="">background color change :</label>
+    <br>
+    
+    <input type="color" name="" id="colorInput">
+    <h3 id="colorResult"></h3>
+
+    <div id="resultDiv">
+        <h2 id="resultText">Try Again</h2>
+        <br><br>
+        <h2 id="resultScore">2/10</h2>
+        <br><br>
+        <button style="width: 50%;" onclick="playAgain()" class="lol">Play again</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

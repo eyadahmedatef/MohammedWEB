@@ -1,0 +1,125 @@
+@font-face {
+    font-family:font1 ;
+    src: url(fonts/Nosifer-Regular.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(fonts/BungeeSpice-Regular.ttf);
+}
+@font-face {
+    font-family: font3;
+    src: url(fonts/Orbitron-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: font4;
+    src: url(fonts/Lemonada-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: font5;
+    src: url(fonts/MetalMania-Regular.ttf);
+}
+@font-face {
+    font-family: font6;
+    src: url(fonts/Butcherman-Regular.ttf);
+}
+h1{
+    font-family:font1;
+    color: red;
+    text-align: center;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: font1;
+    background-color: black;
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+}
+
+#mainDiv {
+    text-align: center;
+    animation: bodyAnim2 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal forwards;
+    margin: auto;
+}
+
+#watchDiv {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 300px;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    margin: auto;   
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.watchButton {
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: small;
+    padding: 19px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.6s;
+    border: 2px solid transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: font4;
+}
+
+.watchButton:hover {
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+    background-color: transparent;
+    border: 0.2px solid red;
+    color:red;
+}
+
+
+
+
+@keyframes anim1 {
+
+    
+    to {
+        background-color: rgba(255, 0, 0, 0.771);
+        scale: 1.1;
+    }
+}
+
+@keyframes bodyAnim1 {
+
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bodyAnim2 {
+
+    from {
+        position: absolute;
+        top: -100%;
+        
+    }
+    
+    to {
+        position: absolute;
+        top: 0;
+        
+    }
+}
