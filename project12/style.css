@@ -329,6 +329,8 @@ color: var(--primarycolor);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    cursor: grab;
+
 }
 
 .stories .container .contents .cards .card {
@@ -336,8 +338,13 @@ color: var(--primarycolor);
     box-shadow: 0 0 10px rgb(255, 0, 0);
     margin: 10px;
     border-radius: 10px;
+    cursor: grab;
+
 }
 
+.stories .container .contents .cards .card a{
+    cursor: grab;
+}
 @media (max-width: 767px) {
     .stories .container .contents .cards .card {
         width: 320px;
