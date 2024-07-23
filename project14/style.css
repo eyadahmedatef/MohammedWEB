@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    color: red;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+#mainDiv{
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    border: 3px solid red;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#mainDiv input{
+    border-radius: 5px;
+    background-color: black;
+    border: solid red;
+    font-size: 25px;
+    margin: 10px 0;
+    width:90%;
+    color: red;
+    padding: 10px 10px;
+    outline-color: red;
+}
+#mainDiv label{
+    font-size: 25px;
+}
+#mainDiv button{
+    background-color: red;
+    color: black;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    font-size: 20px;
+    transition: 0.4s;
+    
+}
+#mainDiv button:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+    cursor: grab;
+}
+#mainDiv button:active{
+    cursor: grabbing;
+}
+#errorText{
+    margin-bottom:40px ;
+    font-size: 25px;
+    display: none;
+}
+
+
+
