@@ -54,6 +54,6 @@ body{
     font-size: 25px;
     display: none;
 }
-
-
-
+#spinnerDiv{
+    display: none;
+}
