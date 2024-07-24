@@ -217,21 +217,27 @@ a{
 }
 
 .landing .container .landingText button {
-    background-color:var(--primarycolor);
-    color: #000000;
-    font-size: 20px;
-    padding: 20px 40px;
-    font-weight: 900;
-    border: none;   
+    background-color: var(--primarycolor);
+    color: var(--bgcolor-1);
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.6s;
+    border: 2px solid transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: large;
 }
 
 .landing .container .landingText button:hover {
-    cursor: pointer;
-    background-color: rgb(246, 57, 57);
+    background-color: transparent;
+    border: 2px solid var(--primarycolor);
+    color:var(--primarycolor);
+    cursor:grab;
 }
 
 .landing .container .landingText button:active {
-    background-color: rgb(175, 7, 7);
+    cursor: grabbing;
 }
 
 @media (max-width: 992px) {
@@ -465,15 +471,24 @@ color: var(--primarycolor);
     width: 100%;
     padding: 20px;
     font-size: 25px;
-    border-radius: 10px;
-    border: none;
     background-color: var(--primarycolor);
-    color: rgb(0, 0, 0);
+    color: var(--bgcolor-1);
+    text-decoration: none;
+    border-radius: 15px;
+    transition: 0.6s;
+    border: 2px solid transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contact .container .contents .form button:hover {
-    cursor: pointer;
-    background-color: rgb(255, 0, 0);
+    background-color: transparent;
+    border: 2px solid var(--primarycolor);
+    color:var(--primarycolor);
+    cursor:grab;
+}
+.contact .container .contents .form button:active {
+    cursor: grabbing;
 }
 
 @media (max-width: 767px) {
