@@ -19,7 +19,7 @@ async function  signUp () {
     }
 }
 
-function checkImput() {
+function checkInput() {
     if (userEmail.value == "") {
         alert("Please enter valid Email");
     } else if(userPassword.value == "") {
