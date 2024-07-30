@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    color: red ;
+}
+
+#mainDiv{
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    border: 4px solid red;
+    padding:15px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(255, 0, 0);
+    text-align: center;
+} 
+label{
+    font-size: 25px;
+    margin-bottom: 20px;
+    display: block;
+}
+input{
+    padding: 10px 20px;
+    font-size: 25px;
+    width: 90%;
+    border-radius: 10px;
+    border: 2px solid red;
+    background-color: black;
+    color: red;
+}
+h1{
+    font-size: 60px;
+}
+button{
+    background-color: red;
+    color: black;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    font-size: 20px;
+    transition: 0.4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+    cursor: grab;
+}
+button:active{
+cursor: grabbing;
+}

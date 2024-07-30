@@ -14,7 +14,7 @@ async function loginUser() {
     const data = await response.json();
     const result = data.status;
     if(result == true){
-        location.href = "index2.html";
+        location.href = "sign in/index2.html";
     } else {
         errorText.style.display = "block";
     }
