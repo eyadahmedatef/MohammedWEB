@@ -10,10 +10,16 @@ async function  signUp () {
     const apiUrl = `https://tatbeqak.site/apps/tatbeqey/apps/projects/test_api/signup?email=${userEmail.value}&password=${userPassword.value}&name=${userName.value}&address=${userAddress.value}&phone=${userPhone.value}&age=${userAge.value}`;
 
     const response = await fetch(apiUrl);
-    const data = await response.json();
+    const data = await response.json(); 
     const status = data.status;
     if (status == true) {
         alert("sacsess");
+        userEmail.value = "";
+        userPassword.value = "";
+        userName.value = "";
+        userAddress.value = "";
+        userPhone.value = "";
+        userAge.value = "";
     } else {
         alert("Failed");
     }
