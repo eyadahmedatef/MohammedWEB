@@ -13,7 +13,7 @@ async function  signUp () {
     const data = await response.json(); 
     const status = data.status;
     if (status == true) {
-        alert("sacsess");
+        alert("success");
         userEmail.value = "";
         userPassword.value = "";
         userName.value = "";
