@@ -3,12 +3,17 @@ html {
     --hover-color: #051eff;
 }
 
+
 * {
     box-sizing: border-box;
     margin: 0;
 }
 body{
     background-color: black;
+    color: #051eff;
+}
+textarea{
+    color: #051eff;
 }
 
 h1 {
@@ -100,7 +105,17 @@ h1 i {
     text-align: center;
     color: var(--hover-color);
 }
+h1 {
+    font-family: "Sankofa Display", sans-serif;
+    font-weight: 900;
+    color: var(--main-color);
+    font-size: 60px;
+    margin: 20px;
+}
 
+h1 i {
+    font-size: 40px;
+}
 #zeroNotes img {
     width: 50%;
 }
@@ -119,7 +134,7 @@ h3{
     background-color: black;
     color: var(--hover-color);
 }
-.lol{
+.btn-btn-primary{
     background-color: var(--main-color);
         width:30%;
         color: rgb(0, 0, 0);
@@ -132,13 +147,13 @@ h3{
         background-repeat: no-repeat;
         border-radius: 20px;
 }
-.lol:hover{
+.btn-btn-primary:hover{
         background-color: transparent;
             border: 2px solid var(--main-color);
             color: var(--main-color);
             cursor: grab;
 }
-.lol:active{
+.btn-btn-primary:active{
         background-color: transparent;
             border: 2px solid var(--main-color);
             color: var(--main-color);
@@ -156,6 +171,30 @@ h3{
 
 #notesDiv div p {
     margin: 0;
+}
+.dataBtn{
+        background-color: var(--main-color);
+            width: 50%;
+            color: rgb(0, 0, 0);
+            font-size: 25px;
+            justify-content: center;
+            align-items: center;
+            transition: 0.6s;
+            border: 2px solid transparent;
+            background-repeat: no-repeat;
+            border-radius: 20px;
+}
+.dataBtn:hover{
+        background-color: transparent;
+            border: 2px solid var(--main-color);
+            color: var(--main-color);
+            cursor: grab;
+}
+.dataBtn:active{
+        background-color: transparent;
+            border: 2px solid var(--main-color);
+            color: var(--main-color);
+            cursor: grabbing;
 }
 
 #optionsDiv {
@@ -186,14 +225,38 @@ h3{
 #loginDiv div {
     width: 100%;
     text-align: center;
-    border: 2px solid darkblue;
+    border: 2px solid var(--main-color);
     padding: 40px 20px;
-    background-image: linear-gradient(white, aqua);
+    background-color: black;
     border-radius: 20px;
 }
 
 #loginDiv div button {
-    width: 80%;
+    width: 60%;
+    background-color: var(--main-color);
+
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+    border: 2px solid transparent;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+#loginDiv div button:hover {
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+    cursor: grab;
+}
+
+#loginDiv div button:active {
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+    cursor: grabbing;
 }
 
 #loginDiv div input {
@@ -201,42 +264,19 @@ h3{
     font-size: 20px;
     width: 100%;
     border-radius: 10px;
+    background-color: black;
+    color: #051eff;
+    border: none;
+    outline: #051eff;
 }
+
 
 #loginDiv #loginError {
     font-size: 22px;
-    color: red;
+    color: #051eff;
     margin-bottom: 20px;
     display: none;
 }
-#loginDiv div {
-    width: 100%;
-    text-align: center;
-    border: 2px solid darkblue;
-    padding: 40px 20px;
-    background-image: linear-gradient(white, aqua);
-    border-radius: 20px;
-}
-
-#loginDiv div button {
-    width: 80%;
-}
-
-#loginDiv div input {
-    padding: 10px 20px;
-    font-size: 20px;
-    width: 100%;
-    border-radius: 10px;
-}
-
-#loginDiv #loginError {
-    font-size: 22px;
-    color: red;
-    margin-bottom: 20px;
-    display: none;
-}
-
-
 #signupDiv {
     width: 80%;
     max-width: 500px;
@@ -250,14 +290,38 @@ h3{
 #signupDiv div {
     width: 100%;
     text-align: center;
-    border: 2px solid darkblue;
+    border: 2px solid var(--main-color);
     padding: 40px 20px;
-    background-image: linear-gradient(white, aqua);
+    background-color: black;
     border-radius: 20px;
 }
 
 #signupDiv div button {
-    width: 80%;
+    width: 60%;
+    background-color: var(--main-color);
+
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+    border: 2px solid transparent;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+#signupDiv div button:hover {
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+    cursor: grab;
+}
+
+#signupDiv div button:active {
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+    cursor: grabbing;
 }
 
 #signupDiv div input {
@@ -265,14 +329,22 @@ h3{
     font-size: 20px;
     width: 100%;
     border-radius: 10px;
+    background-color: black;
+    color: #051eff;
+    border: none;
+    outline: #051eff;
 }
 
-#signupDiv #loginError {
+
+#signup #signupError {
     font-size: 22px;
-    color: red;
+    color: #051eff;
     margin-bottom: 20px;
     display: none;
 }
+
+
+
 
 #detailsDiv {
     margin: auto;
@@ -289,24 +361,7 @@ h3{
     border-radius: 20px;
 }
 
-#adsDiv {
-    position: absolute;
-    top: 15vh;
-    left: 20px;
-    display: none;
-}
 
-#adsDiv div {
-    width: 200px;
-    height: 300px;
-    background-color: blue;
-    color: white;
-    font-size: 22px;
-    margin-bottom: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 
 @media (min-width: 1200px) {
