@@ -336,7 +336,7 @@ h3{
 }
 
 
-#signup #signupError {
+#signupDiv #signupFaild {
     font-size: 22px;
     color: red;
     margin-bottom: 20px;

@@ -214,14 +214,14 @@
             </div>
             <div class="form">
                 <div class="firstRow">
-                    <input type="text" placeholder="Your Name">
-                    <input type="email" placeholder="Your Mail">
+                    <input type="text" placeholder="Your Name" id="userName">
+                    <input type="email" placeholder="Your Mail" id="userEmail">
                 </div>
-                <input type="text" placeholder="Subject">
+                <input type="text" placeholder="Subject" id="userSubject">
                 <br>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Type Message Here..."></textarea>
+                <textarea name="" id="userMessage" cols="30" rows="10" placeholder="Type Message Here..."></textarea>
                 <br>
-                <button>SEND</button>
+                <button onclick="sendEmail()">SEND</button>
             </div>
         </div>
     </div>
@@ -254,7 +254,7 @@
     </div>
 </div>
 
-
+<script src="script.js"></script>
 <!-- End Footer -->
 </body>
 </html>

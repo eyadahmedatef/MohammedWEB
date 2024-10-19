@@ -35,6 +35,13 @@ function showOptions() {
     zeroNotes.style.display = "none";
 }
 
+
+
+function showSignup() {
+    optionsDiv.style.display = "none";
+    signupDiv.style.display = "flex";
+}
+
 function showHome() {
     optionsDiv.style.display = "none";
     loginDiv.style.display = "none";
@@ -123,7 +130,7 @@ async function signupUser() {
     
     signupFaild.style.display = "none";
 
-    const apiUrl = `https:tatbeqak.site/apps/tatbeqy/apps/eastnotes/signup?email=${signupEmail.value}&password=${signupPassword.value}&name=${signupName.value}`;
+    const apiUrl = `https://tatbeqak.site/apps/tatbeqey/apps/easynotes/signup?email=${signupEmail.value}&password=${signupPassword.value}&name=${signupName.value}`;
 
     const response = await fetch(apiUrl);
 
@@ -135,6 +142,8 @@ async function signupUser() {
 
 
         alert("signup sucssesfuly")
+                signupDivDiv.style.display = "none";
+        detailsDiv.style.display = "flex";
 
     } else {
         signupEmail.style.display = "block";
