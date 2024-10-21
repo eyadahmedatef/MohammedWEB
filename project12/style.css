@@ -8,6 +8,9 @@ html {
     --bgcolor-1: #171a1c;
     scroll-behavior: smooth;
 }
+#pola{
+    color: var(--primarycolor);
+}
 
 * {
     box-sizing: border-box;
