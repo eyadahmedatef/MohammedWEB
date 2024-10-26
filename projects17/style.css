@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+html{
+    --first-color:rgb(43, 43, 43);
+    --second-color:black;
+    --third-color: red;
+}
+body{
+    background-image: linear-gradient(var(--second-color ), var(--first-color));
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+#mainDiv #inputDiv{
+    text-align: center;
+    margin-top: 50px;
+}
+#mainDiv #inputDiv h1{
+    font-size: 50px;
+    color: var(--third-color);
+    font-family: "Rubik", sans-serif;
+    text-shadow: 0 3px 5px ;
+}
+#mainDiv #inputDiv input{
+    width: 70%;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    outline-color:var(--third-color) ;
+    color: var(--third-color);
+    background-color: var(--second-color);
+}
+#mainDiv #inputDiv button{
+        width: 70%;
+            padding: 20px;
+            border-radius: 20px;
+            font-size: 20px;
+        background-color: var(--third-color);
+        color: var(--second-color);
+        text-decoration: none;
+        border-radius: 20px;
+        transition: 0.6s;
+        border: 2px solid transparent;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #mainDiv #inputDiv button:hover {
+        background-color: transparent;
+        border: 2px solid var(--third-color);
+        color: var(--third-color);
+        cursor: grab;
+    }
+
+#mainDiv #inputDiv button:active {
+        cursor: grabbing;
+    }
+
+#mainDiv #resultDiv #adsDiv{
+    width: 200px;
+    height: 200px;
+    background-color: var(--third-color);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+}
+#mainDiv #resultDiv #canvasDiv{
+    background-color: var(--third-color);
+    margin-top: 30px;
+    border-radius: 20px;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            margin-top: 30px;
+}
