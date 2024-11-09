@@ -1,4 +1,4 @@
-const weatherContainer = document.getElementById("weatherContainer");
+ const weatherContainer = document.getElementById("weatherContainer");
 const tempC= document.getElementById("tempC");
 const tempf = document.getElementById("tempf");
 const DammamBtn = document.getElementById("DammamBtn");
